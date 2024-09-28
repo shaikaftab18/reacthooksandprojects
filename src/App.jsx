@@ -15,7 +15,9 @@ function App() {
          
    }
    const removeValue=()=>{
+    if(Counter!=0){
     setCounter(Counter-1)
+    }
    }
   return (
     <>
